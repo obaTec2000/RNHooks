@@ -10,7 +10,7 @@ const Hooks = () => {
   const inputRef = useRef();
 
   useEffect(() => {
-    console.log('Basit is getting amended')
+    console.log('Basit is getting amended') 
   }, [basit, setBasit])
 
   const handleBasitIncreament = () => {
